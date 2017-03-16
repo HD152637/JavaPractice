@@ -27,6 +27,7 @@ public class Loop {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n, atk=100, a;
+		String[] job = {"마법사","영주","기사","농민"};
 		do {			
 			Scanner scanner = new Scanner(System.in);
 			
@@ -52,11 +53,8 @@ public class Loop {
 				System.out.printf("공격력이 감소되었습니다. 현재 공격력 : %d\n",atk);
 				break;
 			case 3:
-				a = new Random().nextInt(4);
-				if (a==0) System.out.println("마법사(으)로 설정되었습니다.");
-				else if (a==1) System.out.println("영주(으)로 설정되었습니다.");
-				else if (a==2) System.out.println("기사(으)로 설정되었습니다.");
-				else System.out.println("농민(으)로 설정되었습니다.");
+				a = new Random().nextInt(job.length);
+				System.out.printf("%s(으)로 설정되었습니다.\n",job[a]);
 				break;
 			case 9:
 				System.out.println("이제 공부하세요!");
