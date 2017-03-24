@@ -62,5 +62,4 @@ public class CarTest {
 		System.out.println("최대속도 : " + car.getMaxSpeed() + "km");
 		System.out.println("가격 : " + String.format("%,d", car.getPrice()) + "원");
 	}
-
 }
