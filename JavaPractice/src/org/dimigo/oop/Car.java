@@ -62,5 +62,4 @@ public class Car {
 	public void setPrice(int newPrice){
 		price = newPrice;
 	}
-	
 }
