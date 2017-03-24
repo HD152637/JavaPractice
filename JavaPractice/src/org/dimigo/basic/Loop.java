@@ -54,6 +54,7 @@ public class Loop {
 				break;
 			case 3:
 				a = new Random().nextInt(job.length);
+
 				System.out.printf("%s(으)로 설정되었습니다.\n",job[a]);
 				break;
 			case 9:
