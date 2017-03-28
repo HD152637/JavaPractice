@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  * 	 |_ CarTest
  *
- * 1. 개요 : 
+ * 1. 개요 : 실습과제4 - 자동차 출력3
  * 2. 작성일 : 2017. 3. 28.
  * </pre>
  * 
