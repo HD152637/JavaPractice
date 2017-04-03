@@ -23,11 +23,11 @@ public class Question {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		String [] questions = {"1. 가장 좋아하는 가수는? ","2. 가장 좋아하는 배우는? ","3. 가장 좋아하는 과목은? "};
+		String [] questions = {"가장 좋아하는 가수는? ","가장 좋아하는 배우는? ","가장 좋아하는 과목은? "};
 		String [] answers = {"다현","송혜교","프로그래밍"};
 		
 		for (int i=0;i<3;i++){
-			System.out.println(questions[i]);
+			System.out.println((i+1) + ". " +questions[i]);
 			String answer = scanner.next();
 			System.out.println(answer.equals(answers[i]) ? "정답입니다!":"틀렸습니다!" );
 		}
