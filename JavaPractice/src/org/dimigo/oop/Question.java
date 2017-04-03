@@ -32,11 +32,11 @@ public class Question {
 			System.out.println(answer.equals(answers[i]) ? "정답입니다!":"틀렸습니다!" );
 		}
 		
-		System.out.println("<< 결과 출력 >>");
+		StringBuilder s = new StringBuilder("<< 결과 출력 >> \n");
 		for (int i=0;i<3;i++){
-			StringBuilder s = new StringBuilder();
-			System.out.println(s.append(questions[i]).append(answers[i]).append("입니다."));
+			s.append(questions[i]).append(answers[i]).append("입니다. \n");
 		}
+		System.out.println(s);
 	}
 
 }
