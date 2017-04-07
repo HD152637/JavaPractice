@@ -27,7 +27,7 @@ public class SnackTest {
 		
 		int sum=0;
 		
-		for(int i=0;i<3;i++){
+		for(int i=0;i<snack.length;i++){
 			sum += snack[i].calcPrice();
 			System.out.println(snack[i]);
 		}
