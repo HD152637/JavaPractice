@@ -62,8 +62,8 @@ public class Snack {
 	public String toString(){
 		return  "이름 : "+name+"\n"+
 				"제조사 : "+company+"\n"+
-				"가격 : "+price+"원\n"+
-				"개수 : "+number+"개\n";
+				"가격 : "+String.format("%,d",price)+"원\n"+
+				"개수 : "+String.format("%,d",number)+"개\n";
 	}
 	
 }
