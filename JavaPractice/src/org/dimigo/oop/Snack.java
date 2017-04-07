@@ -24,6 +24,7 @@ public class Snack {
 	
 	public Snack(){
 	}
+	
 	public Snack(String name, String company, int price, int number){
 		this.name = name;
 		this.company = company;

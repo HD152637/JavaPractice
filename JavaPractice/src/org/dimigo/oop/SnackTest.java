@@ -19,30 +19,21 @@ package org.dimigo.oop;
 public class SnackTest {
 
 	public static void main(String[] args) {
-		Snack snack = new Snack();
+		Snack[] snack = new Snack[]{
+			new Snack("새우깡","농심",1100,2),
+			new Snack("콘칲","크라운",1200,1),
+			new Snack("허니버터칩","해태",1500,4)
+		};
+		
 		int sum=0;
 		
-		snack = new Snack("새우깡","농심",1100,2);
-		sum += snack.getPrice() * snack.getNumber();
-		System.out.println(snack);
-		System.out.println();
+		for(int i=0;i<3;i++){
+			sum += snack[i].calcPrice();
+			System.out.println(snack[i]);
+			System.out.println();
+		}
 		
-		snack.setCompany("콘칲");
-		snack.setName("크라운");
-		snack.setPrice(1200);
-		snack.setNumber(1);
-		sum += snack.getPrice() * snack.getNumber();
-		System.out.println(snack);
-		System.out.println();
-		
-		snack.setCompany("허니버터칩");
-		snack.setName("해태");
-		snack.setPrice(1500);
-		snack.setNumber(4);
-		sum += snack.getPrice() * snack.getNumber();
-		System.out.println(snack);
-		System.out.println();
-		System.out.println("총 구매 금액 : "+sum+"원");
+		System.out.println("총 구매 금액 : "+String.format("%,d", sum)+"원");
 	}
 
 }
