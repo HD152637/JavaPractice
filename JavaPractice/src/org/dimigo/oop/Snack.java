@@ -60,7 +60,10 @@ public class Snack {
 		return price * number;
 	}
 	public String toString(){
-		return "이름 : "+name+"\n제조사 : "+company+"\n가격 : "+price+"원 \n개수 : "+number+"개";
+		return  "이름 : "+name+"\n"+
+				"제조사 : "+company+"\n"+
+				"가격 : "+price+"원\n"+
+				"개수 : "+number+"개\n";
 	}
 	
 }
