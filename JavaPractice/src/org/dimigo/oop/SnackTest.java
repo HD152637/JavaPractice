@@ -27,9 +27,9 @@ public class SnackTest {
 		
 		int sum=0;
 		
-		for(int i=0;i<snack.length;i++){
-			sum += snack[i].calcPrice();
-			System.out.println(snack[i]);
+		for(Snack i : snack){
+			sum += i.calcPrice();
+			System.out.println(i);
 		}
 		
 		System.out.println("총 구매 금액 : "+String.format("%,d", sum)+"원");
