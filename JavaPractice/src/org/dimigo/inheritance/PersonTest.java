@@ -13,7 +13,7 @@ import org.dimigo.inheritance.Person;
  * org.dimigo.inheritance
  * 	 |_ PersonTest
  *
- * 1. 개요 : 
+ * 1. 개요 : 실습과제9 - We Are the World!!s
  * 2. 작성일 : 2017. 5. 24.
  * </pre>
  * 

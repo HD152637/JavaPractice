@@ -8,7 +8,7 @@ package org.dimigo.inheritance;
  * org.dimigo.inheritance
  * 	 |_ Person
  *
- * 1. 개요 : 
+ * 1. 개요 : 실습과제9 - We Are the World!!
  * 2. 작성일 : 2017. 5. 24.
  * </pre>
  * 
