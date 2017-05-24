@@ -3,11 +3,6 @@
  */
 package org.dimigo.inheritance;
 
-import org.dimigo.inheritance.Chinese;
-import org.dimigo.inheritance.Japanese;
-import org.dimigo.inheritance.Korean;
-import org.dimigo.inheritance.Person;
-
 /**
  * <pre>
  * org.dimigo.inheritance
