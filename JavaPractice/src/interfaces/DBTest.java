@@ -20,11 +20,18 @@ public class DBTest {
 
 	public static void main(String[] args) {
 
+//		IDBManager dbs[] = {
+//			IDBManager.getDBObject("ORACLE"),
+//			IDBManager.getDBObject("SYBASE"),			
+//		};
+		
 		IDBManager oracle = IDBManager.getDBObject("ORACLE");
 		IDBManager sybase = IDBManager.getDBObject("SYBASE");
 		
 		crud(oracle);
 		crud(sybase);
+//		crud(dbs[0]);
+//		crud(dbs[1]);
 		
 	}
 
