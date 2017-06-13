@@ -41,11 +41,11 @@ public class MelonGenreChart {
 		printMap(map);
 		
 		System.out.println("-- << 댄스 2위 곡 변경 >> --");
-		danceList.set(1, new Music("SIGNAL","트와이스"));
+		map.get("댄스").set(1, new Music("SIGNAL","트와이스"));
 		printMap(map);
 
 		System.out.println("-- << 댄스 1위 곡 삭제 >> --");
-		danceList.remove(0);
+		map.get("댄스").remove(0);
 		printMap(map);
 		
 		System.out.println("-- << 전체 리스트 삭제 >> --");
