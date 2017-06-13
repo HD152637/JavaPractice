@@ -26,7 +26,7 @@ public class MelonGenreChart {
 
 	public static void main(String[] args) {
 
-		System.out.println("-- << 멜론 장르별 차트 >> --");
+		System.out.println("-- << 멜론 장르별 챠트 >> --");
 		
 		List<Music> danceList = new ArrayList<Music>();
 		danceList.add(new Music("I LUV IT","PSY"));
